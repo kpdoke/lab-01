@@ -36,6 +36,9 @@ class MainActivity : ComponentActivity() {
 
         val happy = Happy(date = "1st Jan, 2026")
         val sad = Sad(date = "31st Jan, 2026")
+        val mood = mutableListOf<Mood>()
+        mood.add(happy)
+        mood.add(sad)
 
 
     }
